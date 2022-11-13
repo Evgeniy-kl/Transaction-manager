@@ -1,5 +1,5 @@
 # .github/workflows/app.yaml
-name: My Python Project
+name: Transaction Manager CI
 on: push
 
 jobs:
