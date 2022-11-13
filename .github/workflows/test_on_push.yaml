@@ -30,6 +30,7 @@ jobs:
         run: |
           pipenv install --deploy --dev
 
-      - name: Run test suite
+      - name: Run Linters
         run: |
           pipenv run black .
+          pipenv run isort .
